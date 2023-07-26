@@ -4,8 +4,8 @@ import { noEmptyAnnotations } from "./rules/1-example.js";
 export default definePlugin({
   id: "YCP",
   name: "prv-annotations",
-  displayName: "Your custom plugin",
-  description: "Welcome to your first plugin!",
+  displayName: "Private Annotations Plugin",
+  description: "My first custom plugin!",
   rules: {
     noEmptyAnnotations
   },
